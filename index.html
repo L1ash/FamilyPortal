@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -29,33 +30,147 @@
                     <button class="button">Написать нам</button>
                 </div>
             </div>
-            <div class="row justify-content-between header_bottom bottom">
-                <div class="col-5 bottom_menu-01 p-0">
-                    <nav class="row menu-01 justify-content-between">
-                        <a href="#" class="col-3 menu-01_item p-0">O портале</a>
-                        <a href="#" class="col-4 menu-01_item p-0">Всё для семьи</a>
-                        <a href="#" class="col-3 menu-01_item p-0">События</a>
-                    </nav>
-                </div>
-                <div class="col-2 text-center">
-                    <img src="img/LogoPart1.svg" class="logoPt1" alt="">
-                    <img src="img/LogoPart2.svg" class="logoPt2" alt="">
-                </div>
-                <div class="col-5 bottom_menu-02 p-0">
-                    <nav class="row menu-02 justify-content-between">
-                        <a href="#" class="col-3 menu-02_item p-0">Вопросы</a>
-                        <a href="#" class="col-5 menu-02_item p-0">Контакты</a>
-                        <a href="#" class="col-2 menu-02_item p-0">
-                            <img src="img/search.svg" alt="">
-                        </a>
-                    </nav>
+        </div>
+        <div class="header_bottom bottom">
+            <div class="container-xxl p-0">
+                <div class="row justify-content-between">
+                    <div class="col-5 p-0">
+                        <nav class="row header_menu-01 menu-01 justify-content-between">
+                            <a href="#" class="col-3 menu-01_item p-0">O портале</a>
+                            <a href="#" class="col-4 menu-01_item p-0">Всё для семьи</a>
+                            <a href="#" class="col-3 menu-01_item p-0">События</a>
+                        </nav>
+                    </div>
+                    <div class="col-2 text-center header_logo">
+                        <img src="img/LogoPart1.svg" class="logoPt1" alt="">
+                        <img src="img/LogoPart2.svg" class="logoPt2" alt="">
+                    </div>
+                    <div class="col-5 p-0">
+                        <nav class="row header_menu-02 menu-02 justify-content-between">
+                            <a href="#" class="col-3 menu-02_item p-0">Вопросы</a>
+                            <a href="#" class="col-5 menu-02_item p-0">Контакты</a>
+                            <a href="#" class="col-2 menu-02_item p-0">
+                                <img src="img/search.svg" alt="">
+                            </a>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <main class="main swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="main_banner banner swiper-slide">
+                <div class="container-xxl p-0 banner_banner1">
+                    <div class="row banner_heading">
+                        <div class="col-5 p-0">
+                            <h2 class="heading">Вся информация по <br>развитию и поддержке <br>семьи в одном месте.</h2>
+                        </div>
+                    </div>
+                    <div class="row banner_describe">
+                        <p class="col-5 describe p-0">при поддержке правительства Амурской области</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_banner2 banner2 swiper-slide">
+                <div class="container-xxl p-0 banner_banner2">
+                    <div class="row banner2_heading">
+                        <div class="col-3 p-0">
+                            <h2 class="heading2">С наступающим</h2>
+                        </div>
+                    </div>
+                    <div class="row banner2_twenty-twenty">
+                        <div class="col-3 p-0 twenty-twenty">2020</div>
+                    </div>
+                    <div class="exclamation ">
+                        !
+                    </div>
+                    <div class="row banner2_describe">
+                        <p class="col-3 describe2 p-0">Здоровья и любви Вам в новом году!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_banner3 banner3 swiper-slide">
+                <div class="container-xxl p-0 banner_banner3">
+                    <div class="row banner3_heading">
+                        <div class="col-6 p-0">
+                            <h2 class="heading3">Многодетные семьи получат помощь на рождение детей</h2>
+                        </div>
+                    </div>
+                    <div class="row banner3_describe">
+                        <p class="col-5 describe3 p-0">Уже со следующего месяца многодетные семьи будут получать увеличенные пособия на детей. На заседании ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_advantage container-xxl ps-0 pe-0">
+            <div class="row advantage justify-content-between p-0">
+                <div class="col-4 advantage_item">
+                    <span class="advantage_number n1">57</span>
+                    <span class="advantage_text">семьям, обратившимся <br>к нам, мы помогли</span>
+                </div>
+                <div class="col-4 advantage_item">
+                    <span class="advantage_number n2">24/7</span>
+                    <span class="advantage_text">мы принимаем обращения ежедневно</span>
+                </div>
+                <div class="col-4 advantage_item">
+                    <span class="advantage_number n3">100</span>
+                    <span class="advantage_text">квалифицированных сотрудников</span>
+                </div>
+            </div>
+        </div>
+    </main>
     
+    <section class="EvFoFam">
+        <div class="container-xxl EvFoFam_Helper Helper ps-0 pe-0">
+            <div class="row EvFoFam_HMenu HMenu justify-content-between p-0">
+                <span class="col-2 HMenu_heading">Всё для семьи</span>
+                <div class="col-5 row justify-content-between HMenu_ListAndArrow p-0">
+                    <div class="ListAndArrow row p-0">
+                        <nav class="col-10 row ListAndArrow_List justify-content-between">
+                            <a href="#" class="HMenu_Item col-2 p-0">Всё</a>
+                            <a href="#" class="HMenu_Item col p-0">Важное</a>
+                            <a href="#" class="HMenu_Item col p-0">Новости</a>
+                            <a href="#" class="HMenu_Item col p-0">Полезное</a> 
+                        </nav>
+                        <div class="col row ListAndArrow_Arrow">
+                            <a href="#" class="col-auto p-0"><img src="img/LeftArrow.svg" alt=""></a>
+                            <a href="#" class="col-auto p-0"><img src="img/RightArrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row EvFoFam_Articles Articles">
+                <a href="#" class="Articles_ArticleElem ArticleElem col">
+                    <img src="" alt="" class="ArticleElem_Img">
+                    <h3 class="ArticleElem_Heading"></h3>
+                    <div class="row ArticleElem_DataAndSoc DataAndSoc">
+                        div.D
+                    </div>
+                    <div class="ArticleElem_Tag"></div>
+                </a>
+                <a href="#" class="Articles_ArticleElem ArticleElem col">
+                    <img src="" alt="" class="ArticleElem_Img">
+                    <h3 class="ArticleElem_Heading"></h3>                   
+                    <div class="ArticleElem_Tag"></div>
+                </a>
+                <a href="#" class="Articles_ArticleElem ArticleElem col">
+                    <img src="" alt="" class="ArticleElem_Img">
+                    <h3 class="ArticleElem_Heading"></h3>
+                    <div class="ArticleElem_Tag"></div>
+                </a>
+                <a href="#" class="Articles_ArticleElem ArticleElem col">
+                    <img src="" alt="" class="ArticleElem_Img">
+                    <h3 class="ArticleElem_Heading"></h3>
+                    <div class="ArticleElem_Tag"></div>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

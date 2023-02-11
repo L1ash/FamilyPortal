@@ -13,8 +13,7 @@ button {
     font: inherit;
     color: inherit;
     background-color: transparent;
-    /* отображаем курсор в виде руки при наведении; некоторые
-    считают, что необходимо оставлять стрелочный вид для кнопок */
+
     cursor: pointer;
 }
 
@@ -64,25 +63,22 @@ button {
 }
 
 
-.bottom_menu-01::before{
-    z-index: -1;
-    position: absolute;
-    content: "";
-    width: 845px;
-    height: 50px;
-    left: 0;
-    top: 92px;
-    background: #B7C136;
-    border-radius: 0px 4px 4px 0px;
-}
-
 .bottom_menu-01{
     margin-top: 17px;
+    position: relative;
 }
 
 .menu-01{
     padding-left: 38px;
     padding-right: 75px;
+}
+
+.menu-01_item:hover{
+    color: #DCDCDC;
+}
+
+.menu-02_item:hover{
+    color: #DCDCDC;
 }
 
 .logoPt1{
@@ -93,19 +89,16 @@ button {
     margin-top: 8px;
 }
 
-.bottom_menu-02::before{
-    z-index: -1;
-    position: absolute;
-    content: "";
-    width: 845px;
-    height: 50px;
-    left: 1075px;
-    top: 92px;
-    background: #B7C136;
-    border-radius: 4px 0px 0px 4px;
+.bottom{
+    background-color: #B7C136;
 }
 
-.bottom_menu-02{
+
+.header_menu-01{
+    margin-top: 17px;
+}
+
+.header_menu-02{
     margin-top: 12px;
 }
 
@@ -115,4 +108,266 @@ button {
 
 .menu-02_item:not(:last-child){
     margin-top: 6px;
+}
+
+.header_logo{
+    background-color: #FFF;
+    padding-bottom: 10px;
+}
+
+.main_banner{
+    padding-top: 106px;
+    padding-bottom: 83px;
+}
+
+.banner_heading{
+    padding-left: 26px;
+}
+
+.banner{
+    background-image: url(../img/Banner1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+
+.describe{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.banner_describe{
+    margin-top: 34px;
+    padding-left: 29px;
+}
+
+.banner2{
+    background-image: url(../img/Banner2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.main_banner2{
+    padding-top: 119px;
+    padding-bottom: 83px;
+}
+
+.banner_banner2{
+    position: relative;
+}
+
+.banner2_heading{
+    padding-left: 28px;
+}
+
+.banner2_twenty-twenty{
+    padding-left: 28px;
+}
+
+.heading2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #5E727C;
+}
+
+.twenty-twenty{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 79px;
+    color: #5E727C;
+}
+
+.exclamation{
+    position: absolute;
+    left: 256px;
+    bottom: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    color: #5E727C;
+}   
+
+.describe2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #5E727C;
+}
+
+.banner2_describe{
+    margin-top: 38px;
+    padding-left: 29px;
+}
+
+.banner3{
+    background-image: url(../img/Banner3.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.main_banner3{
+    padding-top: 119px;
+    padding-bottom: 110px;
+}
+
+.banner3_heading{
+    padding-left: 28px;
+}
+
+.heading3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #5E727C;
+}
+
+.describe3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #5E727C;
+}
+
+.banner3_describe{
+    margin-top: 20px;
+    padding-left: 28px;
+}
+
+.main_advantage{
+    margin-top: 82px;
+    padding-bottom: 80px;
+}
+
+.advantage{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #706A5E;
+}
+
+.advantage_item{
+    text-align: center;
+    border: 1px solid #B7C136;
+    width: 271px;
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.advantage_text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 180px;
+    margin: 0 auto;
+    top: 56px;
+}
+
+.advantage_number{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+
+    position: absolute;
+    margin: 0 auto;
+    max-width: 150px;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: -42px;
+}
+
+.n1{
+    color: #5795AA;
+}
+
+.n2{
+    color: #FFBE3B;
+}
+
+.n3{
+    color: #D35F8E;
+}
+
+.n3::before{
+    position: absolute;
+    content: "более";
+    color: rgb(112, 106, 94);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    left: -52px;
+    top: -18px;
+}
+
+.EvFoFam{
+    background-image: url("../img/Background.png");
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+.EvFoFam_Helper{
+    padding-top: 63px;
+    
+}
+
+.HMenu{
+    border-bottom: 2px solid #007BBA;
+}
+
+.HMenu_heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #003249;
+
+    padding-left: 14px;
+    padding-top: 2px;
+}
+
+.ListAndArrow_List{
+    padding-left: 51px;
+    padding-right: 20px;
+}
+
+.HMenu_Item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px
+}
+
+.HMenu_Item:hover{
+    color: #007BBA;
+    border-top: 1px solid #007BBA;
+}
+
+.ListAndArrow_Arrow{
+    padding-left: 26px;
 }
